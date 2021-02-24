@@ -1,0 +1,18 @@
+  
+eureka :
+  instance :
+    hostname : localhost
+  server :
+  port : 8191
+  
+  
+  client :
+     serviceUrl :
+        defaultZone : http://localhost:8191/www.nioun.org/discovery/
+     register-with-eureka : false
+     fetch-registry : false 
+
+eureka :
+  client :
+    region : default 
+    registryFetchIntervalsSeconds : 5

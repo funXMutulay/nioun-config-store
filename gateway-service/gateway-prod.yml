@@ -1,0 +1,7 @@
+ 
+ spring:
+  datasource:
+    application-name : gateway
+    
+
+ 
